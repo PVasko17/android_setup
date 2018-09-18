@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/image_popup"
+        android:textColor="@color/textColor">
+        <item
+            android:id="@+id/image_fs"
+            android:textColor="@color/textColor"
+            android:title="@string/fs_image"/>
+        <item
+            android:id="@+id/image_camera"
+            android:textColor="@color/textColor"
+            android:title="@string/camera_image"/>
+        <item
+            android:id="@+id/image_remove"
+            android:visible="false"
+            android:textColor="@color/textColor"
+            android:title="@string/remove_image"/>
+    </group>
+</menu>

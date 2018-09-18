@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2c9be9</color>
+    <color name="colorPrimaryDark">#2789ce</color>
+    <color name="colorAccent">#2c9be9</color>
+    <color name="windowBackground">#f6f7f8</color>
+    <color name="drawerHeaderBackground">#485f70</color>
+    <color name="drawerBackground">#485f70</color>
+
+    <color name="textColor">#6c788a</color>
+    <color name="textColorWhite">#deffffff</color>
+    <color name="secondaryTextColorWhite">#92ffffff</color>
+    <color name="secondaryTextColor">#8a6c788a</color>
+    <color name="hintTextColor">#616c788a</color>
+    <color name="textShadow">#7F6c788a</color>
+
+    <color name="drawerActiveText">#deffffff</color>
+    <color name="drawerInactiveText">#5cffffff</color>
+
+    <color name="elementBorderColor">#E0E0E0</color>
+    <color name="buttonBackground">#2c9be9</color>
+    <color name="buttonBackgroundPressed">#2789ce</color>
+    <color name="buttonBackgroundInactive">#5a7e96</color>
+    <color name="tooltipBackground">#cc000000</color>
+
+    <color name="textInputBottomBorder">#d5d5d5</color>
+    <color name="textInputBottomBorderPressed">#a7a7a7</color>
+
+    <color name="transparentButtonBackgroundPressed">#eeeeee</color>
+    <color name="transparentButtonBackground">#00ffffff</color>
+    <color name="transparentButtonBackgroundInactive">#dddddd</color>
+
+    <color name="buttonCancelBackground">#d5d5d5</color>
+    <color name="buttonCancelBackgroundPressed">#b6b6b6</color>
+    <color name="buttonCancelBackgroundInactive">#4e6e8c</color>
+</resources>

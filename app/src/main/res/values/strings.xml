@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Android Minimal Project</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="network_offline">Network offline</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="error_network">Network Error</string>
+    <string name="error_not_allowed_action">You are not allowed to perform this action</string>
+
+    <string name="fs_image">Select image from gallery</string>
+    <string name="camera_image">Take a Photo</string>
+    <string name="remove_image">Remove Image</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:drawable="@color/buttonCancelBackgroundPressed">
+    </item>
+    <item android:state_enabled="true"
+        android:drawable="@color/buttonCancelBackground">
+    </item>
+    <item android:state_enabled="false"
+        android:drawable="@color/buttonCancelBackgroundInactive">
+    </item>
+    <item android:state_activated="false"
+        android:drawable="@color/buttonCancelBackgroundInactive">
+    </item>
+</selector>

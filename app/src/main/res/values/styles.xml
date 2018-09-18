@@ -1,0 +1,162 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorSecondary">@color/secondaryTextColor</item>
+        <item name="android:textColorHint">@color/hintTextColor</item>
+    </style>
+
+    <style name="AppTheme.ScreenContent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.PopupMenu" parent="AppTheme">
+        <item name="android:popupBackground">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.AppBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.EmptyListHint">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:padding">@dimen/form_double_padding</item>
+        <!--<item name="android:background">@android:color/white</item>-->
+    </style>
+
+    <style name="AppTheme.AlertDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:textColor">@color/textColorWhite</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.EditText" parent="Base.V7.Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/input_height</item>
+        <item name="android:layout_marginBottom">@dimen/form_padding</item>
+        <item name="android:background">@drawable/input_background</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:padding">@dimen/form_padding</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorHint">@color/secondaryTextColor</item>
+        <item name="android:imeOptions">flagNoExtractUi</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="AppTheme.Button" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:textColor">@color/textColorWhite</item>
+        <item name="android:background">@drawable/background_button</item>
+        <item name="android:layout_marginBottom">@dimen/form_padding</item>
+        <item name="android:paddingLeft">@dimen/form_half_padding</item>
+        <item name="android:paddingRight">@dimen/form_half_padding</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="AppTheme.ImageButton" parent="Base.Widget.AppCompat.ImageButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/background_image_button</item>
+        <item name="android:alpha">0.7</item>
+        <item name="android:layout_marginBottom">@dimen/form_half_padding</item>
+    </style>
+
+    <style name="AppTheme.DialogCancelButton" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:textColor">@color/textColorWhite</item>
+        <item name="android:background">@drawable/background_cancel_button</item>
+        <item name="android:layout_marginBottom">@dimen/form_padding</item>
+    </style>
+
+    <style name="AppTheme.SegmentedControl">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">@dimen/size_none</item>
+        <item name="android:textSize">@dimen/segment_text</item>
+        <item name="android:padding">@dimen/form_half_padding</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:textColor">@color/segmented_text_color</item>
+    </style>
+
+    <style name="AppTheme.SegmentedControlLeft" parent="AppTheme.SegmentedControl">
+        <item name="android:background">@drawable/radio_segment_left</item>
+    </style>
+
+    <style name="AppTheme.SegmentedControlCenter" parent="AppTheme.SegmentedControl">
+        <item name="android:background">@drawable/radio_segment_center</item>
+    </style>
+
+    <style name="AppTheme.SegmentedControlRight" parent="AppTheme.SegmentedControl">
+        <item name="android:background">@drawable/radio_segment_right</item>
+    </style>
+
+    <style name="AppTheme.OfflineMode">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColorWhite</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@dimen/form_half_padding</item>
+        <item name="android:paddingBottom">@dimen/form_half_padding</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:textSize">@dimen/offline_mode_text_size</item>
+    </style>
+
+    <style name="AppTheme.EditText.Label" parent="Base.Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:layout_marginBottom">@dimen/form_half_padding</item>
+    </style>
+
+    <style name="AppTheme.Progress" parent="Base.Widget.AppCompat.ProgressBar">
+        <item name="android:layout_width">@dimen/progress_bar_size</item>
+        <item name="android:layout_height">@dimen/progress_bar_size</item>
+        <item name="android:background">@drawable/background_circle_white</item>
+        <item name="android:layout_marginTop">@dimen/progress_bar_top_margin</item>
+        <item name="android:layout_marginBottom">@dimen/form_padding</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="AppTheme.RecyclerView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+
+</resources>

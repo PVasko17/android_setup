@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="toolBarElevation">4dp</dimen>
+    <dimen name="button_height">45dp</dimen>
+    <dimen name="input_height">45dp</dimen>
+    <dimen name="size_none">0dp</dimen>
+    <dimen name="form_padding">8dp</dimen>
+    <dimen name="form_half_padding">4dp</dimen>
+    <dimen name="form_quarter_padding">2dp</dimen>
+    <dimen name="form_double_padding">16dp</dimen>
+    <dimen name="drawer_avatar_top_padding">0dp</dimen>
+    <dimen name="list_button_border_width">1dp</dimen>
+    <dimen name="list_button_height">35dp</dimen>
+    <dimen name="list_button_padding">2dp</dimen>
+    <dimen name="app_name_text_size">45sp</dimen>
+    <dimen name="dialog_width">350dp</dimen>
+
+    <dimen name="segment_text">14sp</dimen>
+    <dimen name="search_border_radius">7dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="image_corner_radius">30dp</dimen>
+    <dimen name="list_top_padding">64dp</dimen>
+    <dimen name="list_date_height">50dp</dimen>
+    <dimen name="login_logo_width">100dp</dimen>
+    <dimen name="default_border_radius">2dp</dimen>
+    <dimen name="tab_indicator">6dp</dimen>
+
+    <dimen name="collapsing_toolbar_height">192dp</dimen>
+    <dimen name="schedule_date_text_size">40sp</dimen>
+    <dimen name="schedule_min_timeline_height">50dp</dimen>
+    <dimen name="collapsing_toolbar_padding">32dp</dimen>
+    <dimen name="button_large_height">55dp</dimen>
+
+    <dimen name="offline_mode_text_size">14sp</dimen>
+    <dimen name="progress_bar_size">40dp</dimen>
+    <dimen name="progress_bar_top_margin">75dp</dimen>
+</resources>

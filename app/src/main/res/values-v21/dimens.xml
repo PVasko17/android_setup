@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="drawer_avatar_top_padding">34dp</dimen>
+    <dimen name="default_elevation">2dp</dimen>
+    <dimen name="double_elevation">4dp</dimen>
+</resources>
